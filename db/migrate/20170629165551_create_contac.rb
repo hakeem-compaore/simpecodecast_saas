@@ -4,7 +4,7 @@ class CreateContac < ActiveRecord::Migration
       t.string :name
       t.string :email
       t.strings  :comments 
-      t.timestampds
+      t.timestamps
     end
   end
 end
