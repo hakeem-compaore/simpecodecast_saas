@@ -9,7 +9,7 @@ gem 'sqlite3',group: [:development, :test]
 
 
 
-
+gem 'devise', '3.4.1'
 #use postgresql as the database for production
 group :production do
     gem 'pg'
